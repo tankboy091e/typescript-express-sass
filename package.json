@@ -1,0 +1,33 @@
+{
+  "name": "app",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "glob": "^7.1.6",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "sass": "^1.32.12",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0"
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.2",
+    "css-loader": "^5.2.4",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "ts-loader": "^9.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack",
+    "server": "nodemon server/bin/www",
+    "start": "concurrently --kill-others \"npm run build\" \"npm run server\""
+  },
+  "author": "",
+  "license": "ISC"
+}

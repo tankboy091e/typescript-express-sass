@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es6",                        
+    "module": "es2020",                    
+    "outDir": "server/dist",                      
+    "strict": true,                          
+    "strictPropertyInitialization": false, 
+    "moduleResolution": "node",            
+    "esModuleInterop": true,                  
+    "skipLibCheck": true,                     
+    "forceConsistentCasingInFileNames": true,
+  },
+  "include": ["src/.d.ts", "src/**/*.ts", "pages/others.ts", "pages/index.ts"],
+  "exclude": ["node_modules"]
+}
