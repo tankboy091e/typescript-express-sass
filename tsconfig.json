@@ -10,6 +10,6 @@
     "skipLibCheck": true,                     
     "forceConsistentCasingInFileNames": true,
   },
-  "include": ["src/.d.ts", "src/**/*.ts", "pages/others.ts", "pages/index.ts"],
+  "include": ["src/.d.ts", "src/**/*.ts", "pages/**/*.ts"],
   "exclude": ["node_modules"]
 }

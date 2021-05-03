@@ -1,6 +1,7 @@
-window.onload = () => new index()
-
-class index {
-    constructor() {
-    }
+class Index {
+  constructor() {
+    console.log('hello world')
+  }
 }
+
+window.onload = () => new Index()
